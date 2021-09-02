@@ -17,31 +17,29 @@ public class Task1 {
 		
 	}
 		
+		System.out.println("------task 2--------");
 		//2.  Create a program that will keep asking user to apply for a credit card. 
 		//As soon you get “yes” from a user program should stop asking.
 
 		Scanner scan=new Scanner(System.in);
 		String answer;
 		
-		while {
-			System.out.println("Do you want to apply for a credit card?");
+		do {
+			System.out.println("Do you want to apply for a credit card?"); 
 			answer=scan.next();
-			if (answer.equalsIgnoreCase("yes")) {
-				break;
-				
-				Scanner scan = new Scanner(System.in);
-				String answer;
-				do {
-					System.out.println("Do you want to apply for Credit? ");
-					answer=scan.nextLine();
-				} while (!answer.equals("yes"));
-				  System.out.println("Thank you for finaly Deciding");	
-				
-	 } 
+		}
+		while (!answer.equals("yes"));
+		{
+			System.out.println("Thanks for choosing to apply."); 
+			}
 		
-	}
-} }
+	
+			
+ } 
+	
+
+} 
 
 
-
+	
 

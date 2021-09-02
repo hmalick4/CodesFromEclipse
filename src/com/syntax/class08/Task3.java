@@ -9,9 +9,9 @@ public class Task3 {
 
 		
 		/*
-		 * write a progarm to ask a user to enter an item they want to buy and the price of that item. 
+		 * write a program to ask a user to enter an item they want to buy and the price of that item. 
 		 * every time the user enters money, accumulate the amount 
-		 * and tell teh user how much is left to pay off.
+		 * and tell the user how much is left to pay off.
 		 * if a user gives more money, the program should return with change.
 		 * when a user is done with payments, program should say "thank you for shopping."
 		 */

@@ -17,8 +17,11 @@ public class ShortHandOperators {
 		i++;
 		System.out.println(i);
 		
+		int x=10;
+		System.out.println(++x+(++x)); //12+11
 		
-		
+		int y=10;
+		System.out.println(y++    +   y++); //10+11
 	}
 
 }

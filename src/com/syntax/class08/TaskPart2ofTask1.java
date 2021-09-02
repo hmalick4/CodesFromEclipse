@@ -14,24 +14,33 @@ public class TaskPart2ofTask1 {
 		 * Then from that range, print the sum of the even and odd integers.
 		 */
 		
-		int start, end, evenSum=0, oddSum=0;
 		
+		Scanner scan=new Scanner (System.in);
+		int startNum, endNum, oddSum=0, evenSum=0;
 		
-		Scanner scan=new Scanner(System.in);
-		System.out.println("Please enter two numbers.");
-		start=scan.nextInt();
-		end=scan.nextInt();
-	
-		for(int i=start; i<=end; i++ ) {
-			if (i%2==0) {
+		System.out.println("Enter a start point");
+		startNum=scan.nextInt();
+		System.out.println("Enter an end point ");
+		endNum=scan.nextInt();
+		
+		for(int i=startNum; i<=endNum; i++) {
+			if(i%2==0) {
 				evenSum+=i;
-				
 			}else {
 				oddSum+=i;
 			}
 		}
-		System.out.println("Sum of even numbers from " +start+" til " +end+" equals "+evenSum);	
-		System.out.println("Sum of odd numbers from " +start+" til "+end+" equals "+oddSum);
+		
+			
+		System.out.println("The sum of even numbers between "+startNum+" and "+endNum+" is "+evenSum +".");
+		System.out.println("The sum of odd numbers between "+startNum+" and "+endNum+" is "+oddSum +".");
+		
+		
+
+		
+		
+		
+		
 	}
 
 }

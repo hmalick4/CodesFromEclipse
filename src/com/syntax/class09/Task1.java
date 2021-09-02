@@ -54,7 +54,7 @@ public class Task1 {
 		System.out.println(name[0]);
 		
 		System.out.println("------ANOTHER WAY TO LIST VARIABLES---------");
-		//declaration and stroing values must be completed first
+		//declaration and storing values must be completed first
 		String[] names= {"Hira", "Mario", "Dinara"};
 		System.out.println(names[2]);
 		names[1]="Zied"; //changing mario to zied
@@ -67,8 +67,8 @@ public class Task1 {
 		 * print: saturday is java coding day.
 		 */
 		
-		String[] words //finish this task
-		
+		String[] words= {"java", "saturday", "day", "coding", "is"};
+		System.out.println(words[1]+" "+words[4]+" "+words[0]+" "+words[3]+" "+words[2]);
 		
 		
 	}
